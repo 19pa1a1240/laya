@@ -1,0 +1,40 @@
+# <!DOCTYPE html>
+<html>
+<head>
+<title> simple calculator </title>
+</head>
+<body  align ="center" text="black" >
+<h1> SIMPLE CALCULATOR</h1>
+<form name="calculator" >
+<div align="center">
+<table border="4" bgcolor="black">
+<tr>
+<td><input type ="textarea" name ="ans" value="" size="33" autofocus /></br>
+<table border="2" cellspacing ="5" cellpadding="8" align="center" >
+<h2>
+<tr>
+<td><input type="button" value="  1  " onclick ="document.calculator.ans.value+='1'"/></td>
+<td><input type="button" value="  2  " onclick ="document.calculator.ans.value+='2'"/></td>
+<td><input type="button" value="  3  " onclick ="document.calculator.ans.value+='3'"/></td>
+<td><input type="button" value="  +  " onclick ="document.calculator.ans.value+='+'"/></td> </br> </tr>
+<tr>
+<td><input type="button" value="  4  " onclick ="document.calculator.ans.value+='4'"/></td>
+<td><input type="button" value="  5  " onclick ="document.calculator.ans.value+='5'"/></td>
+<td><input type="button" value="  6  " onclick ="document.calculator.ans.value+='6'"/></td>
+<td><input type="button" value="  -  " onclick ="document.calculator.ans.value+='-'"/></td></br> </tr>
+<tr>
+<td><input type="button" value="  7  " onclick ="document.calculator.ans.value+='7'"/></td>
+<td><input type="button" value="  8  " onclick ="document.calculator.ans.value+='8'"/></td>
+<td><input type="button" value="  9  " onclick ="document.calculator.ans.value+='9'"/></td>
+<td><input type="button" value="  /  " onclick ="document.calculator.ans.value+='/'"/></td></br></tr>
+<tr>
+<td><input type="button" value="  C  " onclick ="document.calculator.ans.value=''"/></td>
+<td><input type="button" value="  0  " onclick ="document.calculator.ans.value+='0'"/></td>
+<td><input type="button" value="  *  " onclick ="document.calculator.ans.value+='*'"/></td>
+<td><input type="button" value="  =  " onclick ="document.calculator.ans.value=eval(document.calculator.ans.value)"/></td></tr></br>
+</h2></table>
+</td></tr></table>
+</form>
+
+</body>	
+</html>
