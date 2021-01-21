@@ -9,7 +9,7 @@
 <div align="center">
 <table border="4" bgcolor="black">
 <tr>
-<td><input type ="textarea" name ="ans" value="" size="33" autofocus /></br>
+<td><input type ="textarea" name ="ans" value="" size="35" autofocus /></br>
 <table border="2" cellspacing ="5" cellpadding="8" align="center" >
 <h2>
 <tr>
@@ -28,10 +28,14 @@
 <td><input type="button" value="  9  " onclick ="document.calculator.ans.value+='9'"/></td>
 <td><input type="button" value="  /  " onclick ="document.calculator.ans.value+='/'"/></td></br></tr>
 <tr>
-<td><input type="button" value="  C  " onclick ="document.calculator.ans.value=''"/></td>
-<td><input type="button" value="  0  " onclick ="document.calculator.ans.value+='0'"/></td>
+
+<td><input type="button" value="  .  " onclick ="document.calculator.ans.value+='.'"/></td>
 <td><input type="button" value="  *  " onclick ="document.calculator.ans.value+='*'"/></td>
-<td><input type="button" value="  =  " onclick ="document.calculator.ans.value=eval(document.calculator.ans.value)"/></td></tr></br>
+<td><input type="button" value=" Clear " onclick ="document.calculator.ans.value=''"/></td>
+<tr>
+<td><input type="button" value="  %  " onclick ="document.calculator.ans.value+='%'"></td>
+<td><input type="button" value="  0  " onclick ="document.calculator.ans.value+='0'"></td></br>
+<td><input type="button" value=" ans " onclick ="document.calculator.ans.value=eval(document.calculator.ans.value)"/></td></tr></br>
 </h2></table>
 </td></tr></table>
 </form>
